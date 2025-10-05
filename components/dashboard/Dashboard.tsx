@@ -237,7 +237,7 @@ const Dashboard: React.FC<{ user: FirebaseUser; profile: UserProfile }> = ({ use
 
     const handleStartWorkout = () => {
         const currentHour = new Date().getHours();
-        if (currentHour >= 6 && currentHour < 18) {
+        if (currentHour >= 6 && currentHour < 24) {
             if (plan) {
                 setActiveWorkout(plan.workoutPlan);
             }
