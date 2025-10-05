@@ -1,0 +1,7 @@
+{
+  "name": "AI Health Planner",
+  "description": "A responsive web application that uses AI to create personalized health and fitness plans. Users can log their meals by uploading images for nutritional analysis and track their progress over time.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
